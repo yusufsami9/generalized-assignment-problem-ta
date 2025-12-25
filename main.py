@@ -15,7 +15,7 @@ def load_excel_with_pandas(file_path):
     resource_limits = sheets["Capacities"]
     return allocation_costs, resource_consumption, resource_limits
 
-file_path = "problem3 instance.xlsx"
+file_path = "data/problem3 instance.xlsx"
 allocation_costs, resource_consumption, resource_limits = load_excel_with_pandas(file_path)
 allocation_costs_array = allocation_costs.to_numpy()
 resource_consumption_array = resource_consumption.to_numpy()
