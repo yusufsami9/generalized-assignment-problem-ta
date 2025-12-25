@@ -30,7 +30,7 @@ must not exceed its capacity.
 - LP relaxation lower bound computed with **Gurobi (gurobipy)**
 
 ---
-
+```
 ## Repository Structure
 
 ├── main.py
@@ -42,7 +42,7 @@ must not exceed its capacity.
 │ ├── cost_vs_lower_bound.png
 │ └── threshold_vs_iterations.png
 └── README.md
-
+```
 
 ---
 
